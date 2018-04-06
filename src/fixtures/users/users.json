@@ -1,0 +1,142 @@
+[
+  {
+    "username": "solantro",
+    "role": "solantro",
+    "password": "Qwerty123",
+    "passwordConfirmation": "Qwerty123",
+    "email": "admin@solantro.com",
+    "firstName": "admin",
+    "lastName": "admin",
+    "idNanogrid": null
+  },
+  {
+    "username": "utility",
+    "role": "utility",
+    "password": "Qwerty123",
+    "passwordConfirmation": "Qwerty123",
+    "email": "utility@solantro.com",
+    "firstName": "utility",
+    "lastName": "utility",
+    "idNanogrid": null
+  },
+  {
+    "username": "username1",
+    "role": "homeowner",
+    "password": "Password1",
+    "passwordConfirmation": "Password1",
+    "email": "username1@solantro.com",
+    "firstName": "username1",
+    "lastName": "username1",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 1
+  },
+  {
+    "username": "username2",
+    "role": "homeowner",
+    "password": "Password2",
+    "passwordConfirmation": "Password2",
+    "email": "username2@solantro.com",
+    "firstName": "username2",
+    "lastName": "username2",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 2
+  },
+  {
+    "username": "username3",
+    "role": "homeowner",
+    "password": "Password3",
+    "passwordConfirmation": "Password3",
+    "email": "username3@solantro.com",
+    "firstName": "username3",
+    "lastName": "username3",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 3
+  },
+  {
+    "username": "username4",
+    "role": "homeowner",
+    "password": "Password4",
+    "passwordConfirmation": "Password4",
+    "email": "username4@solantro.com",
+    "firstName": "username4",
+    "lastName": "username4",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 4
+  },
+  {
+    "username": "username5",
+    "role": "homeowner",
+    "password": "Password5",
+    "passwordConfirmation": "Password5",
+    "email": "username5@solantro.com",
+    "firstName": "username5",
+    "lastName": "username5",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 5
+  },
+  {
+    "username": "username6",
+    "role": "homeowner",
+    "password": "Password6",
+    "passwordConfirmation": "Password6",
+    "email": "username6@solantro.com",
+    "firstName": "username6",
+    "lastName": "username6",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 6
+  },
+  {
+    "username": "username7",
+    "role": "homeowner",
+    "password": "Password7",
+    "passwordConfirmation": "Password7",
+    "email": "username7@solantro.com",
+    "firstName": "username7",
+    "lastName": "username7",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 7
+  },
+  {
+    "username": "username8",
+    "role": "homeowner",
+    "password": "Password8",
+    "passwordConfirmation": "Password8",
+    "email": "username8@solantro.com",
+    "firstName": "username8",
+    "lastName": "username8",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 8
+  },
+  {
+    "username": "username9",
+    "role": "homeowner",
+    "password": "Password9",
+    "passwordConfirmation": "Password9",
+    "email": "username9@solantro.com",
+    "firstName": "username9",
+    "lastName": "username9",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 9
+  },
+  {
+    "username": "username10",
+    "role": "homeowner",
+    "password": "Password10",
+    "passwordConfirmation": "Password10",
+    "email": "username10@solantro.com",
+    "firstName": "username10",
+    "lastName": "username10",
+    "homeownerCellNumber": "3453453535345",
+    "homeownerLandLine": "345345345345345",
+    "idNanogrid": 10
+  }
+]

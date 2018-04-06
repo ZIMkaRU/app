@@ -1,0 +1,43 @@
+app:
+  port: 3000
+  publicDirs:
+    - public
+  cors:
+    enable: true
+    whitelist: null # array
+  session:
+    enable: true
+    secret: shared
+    name: server-session-cookie-id
+  jwt:
+    sharedSecret: sharedSecret
+    issuer: issuer
+
+databases:
+  app.mongodb:
+    host: 127.0.0.1
+    port: 27017
+    dbName: app
+    user: null
+    password: null
+    reconnectTimeout: 5000
+
+logDebug:
+  prefix: ''
+  postfix: :app
+  enableInfo: true
+  enableDev: true
+  enableError: true
+  enableServerStream: true
+
+log:
+  label: :app
+  pathError: logs/error.log
+  pathExcLogger: logs/exceptions-logger.log
+  pathLog: logs/log.log
+  enableConsole: true
+  enableColor: true
+  enableColorPathError: false
+  enableColorPathExcLogger: false
+  enableColorPathLog: false
+  maxSize: null

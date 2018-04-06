@@ -1,0 +1,10 @@
+.idea/
+.vscode/
+node_modules/
+public/jspm_packages/
+public/node_modules/
+public/bower/
+config/local-production.yaml
+config/local-development.yaml
+logs/*
+!logs/.gitkeep

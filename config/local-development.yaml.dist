@@ -1,0 +1,19 @@
+app:
+  port: 3000
+  cors:
+    enable: true
+    whitelist: null # array
+  session:
+    secret: shared
+    name: server-session-cookie-id
+  jwt:
+    sharedSecret: sharedSecret
+    issuer: issuer
+
+databases:
+  app.mongodb:
+    host: 127.0.0.1
+    port: 27017
+    dbName: app-dev
+    user: null
+    password: null

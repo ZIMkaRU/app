@@ -1,0 +1,115 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "App",
+  "main": "app.js",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.2.1",
+    "ajv-keywords": "^3.1.0",
+    "bcrypt-nodejs": "0.0.3",
+    "better-npm-run": "^0.1.0",
+    "body-parser": "^1.18.2",
+    "colors": "^1.1.2",
+    "config": "^1.29.2",
+    "connect-mongo": "^2.0.1",
+    "cors": "^2.8.4",
+    "express": "^4.14.0",
+    "express-session": "^1.15.6",
+    "js-yaml": "^3.11.0",
+    "jsonwebtoken": "^8.1.0",
+    "method-override": "^2.3.10",
+    "moment": "^2.20.1",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.9",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "mongoose-validator": "^2.0.2",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "supports-color": "^5.3.0",
+    "swagger-tools": "^0.10.3",
+    "validator": "^9.2.0",
+    "winston": "^3.0.0-rc1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-ajv-json-schema": "^1.0.0",
+    "chai-subset": "^1.6.0",
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "mocha": "^4.1.0",
+    "nodemon": "^1.17.3",
+    "supertest": "^3.0.0"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "ignore": [
+      "test/*",
+      "node_modules/*",
+      "logs/*",
+      "public/*",
+      ".git/*",
+      ".idea/*",
+      ".vscode/*"
+    ]
+  },
+  "betterScripts": {
+    "start:prod": {
+      "command": "node app.js",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "start:dev": {
+      "command": "nodemon app.js",
+      "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "swagger-tools:middleware:*"
+      }
+    },
+    "test": {
+      "command": "mocha --opts .mocha.opts",
+      "env": {
+        "NODE_ENV": "test"
+      }
+    },
+    "load-user-fixtures:prod": {
+      "command": "cd src/fixtures&&node load.js",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "load-all-fixtures:prod": {
+      "command": "cd src/fixtures&&node load.js --all",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "load-user-fixtures:dev": {
+      "command": "cd src/fixtures&&node load.js",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    "load-all-fixtures:dev": {
+      "command": "cd src/fixtures&&node load.js --all",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  },
+  "scripts": {
+    "start": "better-npm-run start:prod",
+    "startDev": "better-npm-run start:dev",
+    "loadUserFixtures": "better-npm-run load-user-fixtures:prod",
+    "loadAllFixtures": "better-npm-run load-all-fixtures:prod",
+    "loadUserFixturesDev": "better-npm-run load-user-fixtures:dev",
+    "loadAllFixturesDev": "better-npm-run load-all-fixtures:dev",
+    "test": "better-npm-run test"
+  }
+}

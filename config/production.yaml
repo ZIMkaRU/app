@@ -1,0 +1,19 @@
+app:
+  port: 3000
+
+databases:
+  app.mongodb:
+    host: 127.0.0.1
+    port: 27017
+    dbName: app-prod
+
+logDebug:
+  postfix: :app-prod
+  enableInfo: false
+  enableDev: false
+  enableError: false
+  enableServerStream: false
+
+log:
+  label: :app-prod
+  enableConsole: false
